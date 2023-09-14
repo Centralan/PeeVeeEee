@@ -1,24 +1,22 @@
-pvpWorld: gameroom
-pvpZoneRegion: pvpring
-noEntryRegion: pvp_out
-defaultRating: 1200
+pvpWorld: mobarena
+pveSurZoneRegion: pve_sur_main
+pveSurZoneRegion: pve_mine_main
+defaultRating: 1000
 arenaTeleport:
-  world: gameroom
-  x: 200
-  y: 90
-  z: 200
-teleporterPosition:
-  world: gameroom
-  x: 197
-  y: 64
-  z: 260
-teleporterRadius: 32
-headDropChance: 1
+  world: mobarena
+  x: 837
+  y: 97
+  z: 149
+SurteleporterPosition:
+  world: mobarena
+  x: 41
+  y: 67
+  z: 1
+MineteleporterPosition:
+  world: mobarena
+  x: -2998
+  y: 107
+  z: 2999
+teleporterRadius: 1
 ratingKFactor: 32
 pointsPerRating: 1
-wilderness:
-  world: Spawn
-  region: wild
-  deathRegions:
-    - wildDeath1
-    - wildDeath2
