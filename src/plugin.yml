@@ -1,9 +1,9 @@
-name: PeeVeePeeArena
-main: no.runsafe.peeveepeearena.PeeVeePeeArena
+name: PeeVeeEeeArena
+main: no.runsafe.peeveeeeearena.PeeVeeEeeArena
 version: 1.0.@BUILD@
-author: Kruithne
+author: Centralan
 depend: [RunsafeMailbox, RunsafeWorldGuardBridge]
 description:
 commands:
   pvp:
-    description: PvP related commands
+    description: PvE related commands
