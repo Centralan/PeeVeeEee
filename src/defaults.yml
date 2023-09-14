@@ -1,6 +1,6 @@
 pvpWorld: mobarena
 pveSurZoneRegion: pve_sur_main
-pveSurZoneRegion: pve_mine_main
+pveMinZoneRegion: pve_mine_main
 defaultRating: 1000
 arenaTeleport:
   world: mobarena
