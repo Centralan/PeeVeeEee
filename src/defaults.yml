@@ -1,0 +1,24 @@
+pvpWorld: gameroom
+pvpZoneRegion: pvpring
+noEntryRegion: pvp_out
+defaultRating: 1200
+arenaTeleport:
+  world: gameroom
+  x: 200
+  y: 90
+  z: 200
+teleporterPosition:
+  world: gameroom
+  x: 197
+  y: 64
+  z: 260
+teleporterRadius: 32
+headDropChance: 1
+ratingKFactor: 32
+pointsPerRating: 1
+wilderness:
+  world: Spawn
+  region: wild
+  deathRegions:
+    - wildDeath1
+    - wildDeath2
