@@ -1,4 +1,4 @@
-package no.runsafe.peeveeeeearena.commands;
+package no.runsafe.peeveeeee.commands;
 
 import no.runsafe.framework.api.command.argument.IArgumentList;
 import no.runsafe.framework.api.command.player.PlayerCommand;
