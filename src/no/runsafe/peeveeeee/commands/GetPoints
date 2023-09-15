@@ -1,0 +1,23 @@
+package no.runsafe.peeveeeeearena.commands;
+
+import no.runsafe.framework.api.command.argument.IArgumentList;
+import no.runsafe.framework.api.command.player.PlayerCommand;
+import no.runsafe.framework.api.player.IPlayer;
+import no.runsafe.peeveeeeearena.repositories.PlayerScoresRepository;
+
+public class GetPoints extends PlayerCommand
+{
+	public GetPoints(PlayerScoresRepository playerScoresRepository)
+	{
+		super("points", "Returns the amount of points you have in PvE", "runsafe.peeveeeee.points.get");
+		this.playerScoresRepository = playerScoresRepository;
+	}
+
+	@Override
+	public String OnExecute(IPlayer executor, IArgumentList parameters)
+	{
+		return String.format("&fYou currently have &a%s&f PvE points to spend.", this.playerScoresRepository.getPoints(executor));
+	}
+
+	private final PlayerScoresRepository playerScoresRepository;
+}
