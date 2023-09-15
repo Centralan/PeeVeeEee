@@ -1,0 +1,25 @@
+package no.runsafe.peeveeeee.events;
+
+import no.runsafe.framework.api.block.ISign;
+import no.runsafe.framework.api.event.player.IPlayerRightClickSign;
+import no.runsafe.framework.api.player.IPlayer;
+import no.runsafe.framework.minecraft.item.meta.RunsafeMeta;
+import no.runsafe.peeveeeee.pvpporter.TeleportEngine;
+
+public class RightClickBlock implements IPlayerRightClickSign
+{
+	public RightClickBlock(TeleportEngine teleportEngine)
+	{
+		this.teleportEngine = teleportEngine;
+	}
+
+	@Override
+	public boolean OnPlayerRightClickSign(IPlayer player, RunsafeMeta usingItem, ISign sign)
+	{
+		if (sign.getLine(0).equalsIgnoreCase("[PvE Warp]"))
+			this.teleportEngine.teleportIntoArena(player);
+
+		return true;
+	}
+
+	private final TeleportEngine teleportEngine;
