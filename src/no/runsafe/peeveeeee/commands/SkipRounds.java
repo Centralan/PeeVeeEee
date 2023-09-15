@@ -5,11 +5,11 @@ import org.bukkit.entity.Player;
 import com.garbagemule.MobArena.MobArena;
 import com.garbagemule.MobArena.framework.Arena;
 
-public class SkipRoundAndKillMobsCommand implements CommandExecutor {
+public class SkipRound implements CommandExecutor {
 
     private MobArena mobArena;
 
-    public SkipRoundAndKillMobsCommand(MobArena mobArena) {
+    public SkipRound(MobArena mobArena) {
         this.mobArena = mobArena;
     }
 
