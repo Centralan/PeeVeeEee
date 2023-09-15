@@ -1,4 +1,4 @@
-package no.runsafe.peeveepeearena.customitems.effects;
+package no.runsafe.peeveeeeearena.customitems.effects;
 
 import no.runsafe.framework.api.player.IPlayer;
 import no.runsafe.framework.minecraft.Buff;
