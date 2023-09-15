@@ -1,4 +1,4 @@
-package no.runsafe.peeveepeearena.events;
+package no.runsafe.peeveeeee.events;
 
 import no.runsafe.framework.api.IConfiguration;
 import no.runsafe.framework.api.IServer;
