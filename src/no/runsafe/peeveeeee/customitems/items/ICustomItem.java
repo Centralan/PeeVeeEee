@@ -1,4 +1,4 @@
-package no.runsafe.peeveeeeearena.customitems.items;
+package no.runsafe.peeveeeee.customitems.items;
 
 import no.runsafe.framework.api.player.IPlayer;
 import no.runsafe.framework.minecraft.item.meta.RunsafeMeta;
