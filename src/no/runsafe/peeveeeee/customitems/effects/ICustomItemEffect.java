@@ -1,4 +1,4 @@
-package no.runsafe.peeveeeeearena.customitems.effects;
+package no.runsafe.peeveeeee.customitems.effects;
 
 import no.runsafe.framework.api.player.IPlayer;
 
