@@ -1,4 +1,4 @@
-package no.runsafe.peeveepeearena.events;
+package no.runsafe.peeveeeee.events;
 
 import no.runsafe.framework.api.IConfiguration;
 import no.runsafe.framework.api.event.player.IPlayerDropItemEvent;
@@ -20,5 +20,5 @@ public class PlayerDropItems implements IPlayerDropItemEvent, IConfigurationChan
 		this.pvpWorld = configuration.getConfigValueAsString("pvpWorld");
 	}
 
-	private String pvpWorld;
+	private String pveWorld;
 }
