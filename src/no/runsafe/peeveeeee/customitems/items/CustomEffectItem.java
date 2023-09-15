@@ -1,7 +1,7 @@
-package no.runsafe.peeveepeearena.customitems.items;
+package no.runsafe.peeveeeeearena.customitems.items;
 
 import no.runsafe.framework.api.player.IPlayer;
-import no.runsafe.peeveepeearena.customitems.effects.ICustomItemEffect;
+import no.runsafe.peeveeeeearena.customitems.effects.ICustomItemEffect;
 
 import java.util.ArrayList;
 import java.util.List;
