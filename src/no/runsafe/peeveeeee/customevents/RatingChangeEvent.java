@@ -1,4 +1,4 @@
-package no.runsafe.peeveepeearena.customevents;
+package no.runsafe.peeveeeeearena.customevents;
 
 import no.runsafe.framework.api.player.IPlayer;
 import no.runsafe.framework.minecraft.event.player.RunsafeCustomEvent;
@@ -7,7 +7,7 @@ public class RatingChangeEvent extends RunsafeCustomEvent
 {
 	public RatingChangeEvent(IPlayer player, Integer rating)
 	{
-		super(player, "peeveepee.rating.change");
+		super(player, "peeveeeee.rating.change");
 		this.rating = rating;
 	}
 
