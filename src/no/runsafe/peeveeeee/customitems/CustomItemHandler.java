@@ -1,4 +1,4 @@
-package no.runsafe.peeveeeeearena.customitems;
+package no.runsafe.peeveeeee.customitems;
 
 import no.runsafe.framework.api.block.IBlock;
 import no.runsafe.framework.api.event.player.IPlayerRightClick;
