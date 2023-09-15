@@ -1,15 +1,15 @@
-package no.runsafe.peeveepeearena.commands;
+package no.runsafe.peeveeeee.commands;
 
 import no.runsafe.framework.api.command.argument.IArgumentList;
 import no.runsafe.framework.api.command.player.PlayerCommand;
 import no.runsafe.framework.api.player.IPlayer;
-import no.runsafe.peeveepeearena.pvpporter.TeleportEngine;
+import no.runsafe.peeveeeeearena.pveporter.TeleportEngine;
 
 public class Teleport extends PlayerCommand
 {
 	public Teleport(TeleportEngine teleportEngine)
 	{
-		super("teleport", "Teleports you to the PvP arena", "runsafe.peeveepee.teleport");
+		super("teleport", "Teleports you to the PvE arena", "runsafe.peeveeeee.teleport");
 		this.teleportEngine = teleportEngine;
 	}
 
