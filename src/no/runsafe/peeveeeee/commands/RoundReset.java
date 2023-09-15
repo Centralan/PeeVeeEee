@@ -4,11 +4,11 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class ResetRoundCommand extends JavaPlugin implements CommandExecutor {
+public class ResetRound extends JavaPlugin implements CommandExecutor {
 
     @Override
     public void onEnable() {
-        getLogger().info("ResetRoundCommand enabled.");
+        getLogger().info("ResetRound enabled.");
         getCommand("resetround").setExecutor(this);
     }
 
